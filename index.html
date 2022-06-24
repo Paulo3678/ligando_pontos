@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ligar Pontos</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div id="areaJogo">
+        <div id="areaElementos">
+            <div class="elementoA" data-vincular="#mamao">COMIDA</div>
+            <div class="elementoA" data-vincular="#coca">BEBIDA</div>
+            <div class="elementoA" data-vincular="#violao">OBJETO</div>
+            <div class="elementoA" data-vincular="#gato">ANIMAL</div>
+        </div>
+        <!-- POSSIBILITA FAZER OS LIGAMENTOS - É COMO SE FOSSE UM PLANO CARTESIANO -->
+        <canvas id="areaCanva"></canvas>
+        <div id="areaVinculados">
+            <div class="elementoB" id="coca">COCA-COLA</div>
+            <div class="elementoB" id="gato">GATO</div>
+            <div class="elementoB" id="violao">VIOLÃO</div>
+            <div class="elementoB" id="mamao">MAMÃO</div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+#areaJogo {
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+#areaCanva {
+    width: 1200px;
+    height: 600px;
+}
+
+
+#areaElementos {
+    position: absolute;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#areaVinculados {
+    position: absolute;
+    width: 1200px;
+    top: 510px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.elementoA {
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.elementoB {
+    background-color: brown;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
